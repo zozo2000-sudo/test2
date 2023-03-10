@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">test2</string>
     <string name="_3_hr">3 hr</string>
+    <string name="ahmed_hassan">Ahmed hassan</string>
+    <string name="engineer">Engineer</string>
+    <string name="uk">Uk</string>
+    <string name="_5_days_ago">5 Days ago</string>
 </resources>

@@ -16,7 +16,7 @@
             android:layout_width="93dp"
             android:layout_height="93dp"
             android:src="@drawable/pic2"
-            android:layout_margin="12dp"
+            android:layout_margin="16dp"
 
 
             />
@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="12dp"
-            android:layout_marginBottom="11dp"
+            android:layout_marginBottom="8dp"
             android:layout_weight="1"
             >
             <LinearLayout
@@ -38,9 +38,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/dm_sans_bold"
-                    android:text="Ahmed hassan"
+                    android:text="@string/ahmed_hassan"
                     android:textColor="#000000"
-                    android:textSize="16sp"
+                    android:textSize="@dimen/text_size_normal"
                     android:textStyle="bold" />
 
                 <TextView
@@ -48,16 +48,16 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:fontFamily="@font/dm_sans_medium"
-                    android:text="Engineer"
+                    android:text="@string/engineer"
                     android:textColor="#122940"
-                    android:textSize="12sp" />
+                    android:textSize="@dimen/text_size_medieum" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:drawableStart="@drawable/baseline_add_location_alt_24"
-                    android:text="Uk"
+                    android:text="@string/uk"
                     android:textColor="#99263238"
                     android:textSize="13sp" />
 
@@ -70,7 +70,7 @@
                     android:text="(150 Reviews) 4.5 "
 
                     android:textColor="#000000"
-                    android:textSize="12sp" />
+                    android:textSize="@dimen/text_size_medieum" />
 
             </LinearLayout>
             <LinearLayout
@@ -87,7 +87,7 @@
                     android:background="@drawable/my_backgroundd"
                     android:text="@string/_3_hr"
                     android:textColor="#FFFFFF"
-                    android:textSize="12sp"
+                    android:textSize="@dimen/text_size_medieum"
                     android:textStyle="bold" />
 
                 <TextView
@@ -97,17 +97,17 @@
                     android:fontFamily="@font/dm_sans_medium"
                     android:text=" Russian "
                     android:textColor="#122940"
-                    android:textSize="12sp"
+                    android:textSize="@dimen/text_size_medieum"
                     android:textStyle="normal" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="9dp"
+                    android:layout_marginTop="8dp"
                     android:fontFamily="@font/dm_sans"
-                    android:text=" 5 Days ago  "
+                    android:text="@string/_5_days_ago"
                     android:textColor="#61122940"
-                    android:textSize="12sp"
+                    android:textSize="@dimen/text_size_medieum"
                     android:textStyle="normal" />
 
             </LinearLayout>
